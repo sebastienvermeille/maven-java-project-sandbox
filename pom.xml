@@ -11,7 +11,7 @@
 
     <properties>
         <java.sdk.version>21</java.sdk.version>
-
+        <source.encoding>UTF-8</source.encoding>
         <!-- dependencies versions-->
         <lombok.version>1.18.30</lombok.version>
 
@@ -26,7 +26,7 @@
 
         <maven.compiler.source>${java.sdk.version}</maven.compiler.source>
         <maven.compiler.target>${java.sdk.version}</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.build.sourceEncoding>${source.encoding}</project.build.sourceEncoding>
     </properties>
 
     <dependencies>
